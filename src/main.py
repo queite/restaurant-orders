@@ -1,5 +1,7 @@
 import csv
+
 from pubsub import pub
+
 from inventory_control import InventoryControl
 from track_orders import TrackOrders
 
@@ -13,7 +15,7 @@ def print_info(tracker, control):
 
 def main():
     topic = 'order'
-    path = ""
+    path = "data/orders_1.csv"
 
     tracker = TrackOrders()
     control = InventoryControl()
