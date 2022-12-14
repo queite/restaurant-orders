@@ -2,7 +2,6 @@ from collections import Counter
 
 
 class TrackOrders:
-    # aqui deve expor a quantidade de estoque
     def __init__(self):
         self.data = []
 
